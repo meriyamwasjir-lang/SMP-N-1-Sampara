@@ -1,0 +1,156 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0d6efd;
+    padding: 10px 30px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 55px;
+    height: 55px;
+    margin-right: 10px;
+}
+
+.logo h2{
+    color: white;
+    font-size: 18px;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+}
+
+.menu li{
+    margin-left: 25px;
+}
+
+.menu li a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    transition: 0.3s;
+}
+
+.menu li a:hover{
+    color: crimson;
+}
+
+.hero{
+    width:100%;
+    height:100vh;
+    background:url("SMP\ 01.jpg") no-repeat center center/cover;
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.overlay{
+    position:absolute;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,.45);
+}
+
+.hero-content{
+    position:relative;
+    text-align:center;
+    color:white;
+    z-index:2;
+    animation:fadeUp 2s ease;
+}
+
+.SMP2{
+    width:130px;
+    margin-bottom:20px;
+    weigh: 100%;
+    Height: 100%;
+    
+}
+
+.hero-content hr{
+    width:400px;
+    margin:20px auto;
+    border:1px solid white;
+}
+
+.welcome{
+    font-family:cursive;
+    font-size:50px;
+}
+
+.hero-content h1{
+    font-size:60px;
+    margin-top:10px;
+    font-weight:bold;
+}
+
+.text-slider{
+    margin-top:20px;
+    font-size:28px;
+    color: skyblue;
+    font-weight:bold;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:30px;
+    padding:12px 35px;
+    background:blue;
+    color:white;
+    text-decoration:none;
+    border-radius:30px;
+    transition:.4s;
+}
+
+.btn:hover{
+    background:#0dcf6;
+}
+
+
+.container-footer {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color: #0d6efd;
+    justify-content: center;
+    align-items: center;
+}
+
+.ul-footer {
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    color: yellow;
+}
+
+.li-footer {
+    list-style-type: none;
+    padding: 20px;
+    margin: 5px;
+    font-weight:800;
+}
+
+footer{
+    background:#003b8e;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
